@@ -1,0 +1,15 @@
+
+public class LangeT {
+
+	public static void main(String[] args)
+	{
+		final int TELUGU = 0;
+	getRanges(TELUGU);
+	}
+
+	private static void getRanges(int tELUGU) {
+		
+		System.out.println();
+	}
+
+}

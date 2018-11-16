@@ -1,0 +1,8 @@
+to do remaining programs:
+1)leap year using if-else.
+2)different age group
+3)lovers age group for marriage
+4)to display time in am/pm.
+
+-TO READ NAGESWAR RAO BOOK.
+-WEBSITES

@@ -1,0 +1,27 @@
+
+public class Person1 
+{
+	String name="dog";
+	public static void main(String[] args)
+	{
+		System.out.println("bark");
+	}
+
+}
+
+class Animal
+{
+	String name="dog";
+	
+	public void dogy()
+	{
+		System.out.println("Bark");
+	}
+}
+	class mall
+	{
+Animal dog=new Animal();
+System.out.println(dog.name());
+Person1 Sri=new Person1();
+System.out.println(Person1.name());
+}
