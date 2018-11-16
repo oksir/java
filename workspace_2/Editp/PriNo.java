@@ -1,0 +1,33 @@
+class PriNo
+{
+	public static void main(String args [])
+	{	
+		int x=56,i=0;
+		while(x==1)
+		{
+			System.out.println("2 is the smallest prime no");
+			break;
+		}
+		for(i=2;i<x;i++)
+		{
+			if(x%i==0)
+			{
+				System.out.println("Not a Prime : " +x);
+				break;
+			}
+		
+			/*else
+			{
+				System.out.println("Prime : " +x);
+				break;
+			} */
+		}
+
+		if(x==i)
+		{
+			System.out.println("Prime : " +x);
+		}
+		
+	}
+
+}

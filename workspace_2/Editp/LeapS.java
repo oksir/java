@@ -1,0 +1,15 @@
+class LeapS
+{
+	public static void main(String args [])
+	{
+		int lYear=1600;
+		if((lYear%4==0)&&(lYear%400==0)||(lYear%4==0)&&(lYear%100!=0))
+		{
+			System.out.println("Leap Year :" +lYear);
+		}
+		else
+		{
+			System.out.println("Not a leap Year: " + lYear);
+		}
+	}
+}

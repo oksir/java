@@ -1,0 +1,96 @@
+import java.io.*;
+class Multi 
+{
+int i;
+	Multi() throws IOException
+	{
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("Enter an Integer Value");
+		String s=br.readLine();
+		int i=Integer.parseInt(s);
+		int k=i;
+			
+		
+		//p.Programs("i");
+		
+		if(i%2==0)
+		{
+			System.out.println("even no: " +i);
+		}
+		else
+		{
+			System.out.println("odd no: " +i);
+		}
+
+		//Multi m=new Multi();
+		
+		Multi m2=new Multi(i);
+		m2.Char(i);
+
+
+	} 
+	Multi(int i)
+	{
+		//System.out.println(i);
+		boolean b1=true;
+		int n=2;
+		while(n<=i/2)
+		{
+			if(i%n==0)
+			{
+				b1=false;
+				break;
+			}
+			else
+			{
+				b1=true;
+				break;
+			
+			}
+		}i++;
+		if(b1)
+		{
+			System.out.println("Prime :" +(i-1));
+		}
+		else
+		{ 
+			System.out.println("Not a prime: " +(i-1));
+		}
+	}
+	public void Char(int i) 
+	{
+		//System.out.println(i);
+		char ch=(char)i;
+		System.out.println("Unicode value/ASCII value is: " +ch);
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+class Programs 
+{
+	public static void main(String[] args) throws IOException
+	{
+		
+		//Multi m2=new Multi()
+		int l=0;
+
+		Multi m=new Multi();
+		//m.Char(i);
+		//Multi m2=new Multi(i);
+	}
+}
+
+	

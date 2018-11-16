@@ -1,0 +1,9 @@
+//first program:to display Hai
+
+class Hai
+{
+	public static void main(String args [])
+	{
+		System.out.println("\t Hi \n\t >... \n\t\t >... \n\t\t\t >... \n\t\t \" Welcome to my WORLD \" ");
+	}
+}

@@ -1,0 +1,16 @@
+import java.io.*;
+class Dinpu1
+{
+	public static void main(String args []) throws IOException
+	{
+		InputStreamReader obj=new InputStreamReader(System.in);
+		BufferedReader br=new BufferedReader(obj);
+			
+		System.out.println("Enter Your name : ");
+		String S=br.readLine();
+
+
+		System.out.println("\n Your entered name is : " + "\t\'"+S +"\'");
+	}
+}
+		

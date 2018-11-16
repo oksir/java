@@ -1,0 +1,18 @@
+														/*unary operators*/
+
+class Rela
+{
+	public static void main(String args [])
+	{
+		int x=2,y=4,z=15;
+		int i=0,j=0,k=0,l=0;
+		i=x++;
+		j=--y;
+		k=x<<y;
+		l=z>>x;
+		System.out.println("by post incrmenting x=2 \t>>>>>\t" +i);
+		System.out.println("by pre decrementing y=4 \t>>>>>\t" +j);
+		System.out.println("by left shifting x=2 with y=4 \t>>>>\t" +k);	//doubt
+		System.out.println("by right shiting z=6 with x=2 \t>>>>\t" +l);	//doubt
+	}
+}
