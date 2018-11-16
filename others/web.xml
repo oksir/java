@@ -1,0 +1,21 @@
+<web-app>
+<display-name>Cookie</display-name>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>MyWeb</servlet-name>
+  <servlet-class>com.reg.session.SessionTrack</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>MyWeb</servlet-name>
+    <url-pattern>/srv10</url-pattern>
+ 
+  
+  </servlet-mapping>
+  <session-config>
+   <session-timeout>150</session-timeout>
+</session-config>
+</web-app>
