@@ -1,0 +1,15 @@
+Executed:
+1>arithmetic operators
+2>relational operators
+
+3)mla
+4)tax
+5)bpl
+6)atm pin
+7)gandhi
+8)DOB
+9)yogaday
+10)retirement age
+11)karnataka polls
+
+12>voters eligibility

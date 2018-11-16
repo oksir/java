@@ -1,0 +1,13 @@
+today sir discussed about arithemetic,relational operators.
+
+task:programs
+1)on any 4 arithmetic operators
+2)on any 3 relational operators
+3)display time:am or pm
+4)leap year or not.
+5)age group
+6)eligibility for love marriage or not
+7)voters eligibilty
+8)eligibilty for mla/mp ticket
+9)prime or not
+
