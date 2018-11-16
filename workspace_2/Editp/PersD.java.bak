@@ -1,0 +1,12 @@
+class PersD
+{
+	public static void main(String args [])
+	{
+		int RollNo=10;
+		String Name="SG";
+		boolean Married=false;
+		char Gender='M';
+		System.out.println(RollNo +" "+Name +" "+Married+" "+Gender);
+	}
+}
+		

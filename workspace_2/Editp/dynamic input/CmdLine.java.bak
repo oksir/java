@@ -1,0 +1,17 @@
+import java.io.*;
+class CmdLine
+{
+	public static void main(String[] args) throws IOException
+	{
+		String x[]=new String[2];
+		System.out.print(x[0]);
+		System.out.print(x[1]);
+		System.out.println(x.length);
+
+		for(String S:x)
+		{
+			System.out.println(S);
+		}
+	}
+
+}
